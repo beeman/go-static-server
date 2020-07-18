@@ -1,4 +1,4 @@
-FROM golang:1.14 as build
+FROM golang:1.14.2-alpine as build
 
 WORKDIR /workspace
 ADD . /workspace
